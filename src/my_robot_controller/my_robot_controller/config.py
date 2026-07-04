@@ -1,0 +1,47 @@
+#!/usr/bin/env python3
+import numpy as np
+
+MOVE_Y_FIRST = True
+
+# Navigation
+POSITION_TOLERANCE = 0.005
+ANGLE_TOLERANCE = 0.005
+
+KP_LINEAR = 1.0
+KP_ANGULAR = 1.8
+KI_ANGULAR = 0.35
+
+MAX_LINEAR_SPEED = 0.40
+MAX_ANGULAR_SPEED = 1.0
+MIN_ANGULAR_SPEED = 0.05
+
+CONTROL_RATE = 20.0
+
+# Joint Motion
+JOINT_TOLERANCE = 0.06
+JOINT_TIMEOUT = 5.0
+
+# Gripper
+GRIPPER_OPEN = 0.0
+GRIPPER_CLOSED = 0.04
+
+# Timing
+ARM_SETTLE_TIME = 0.5
+
+# Camera
+IMAGE_WIDTH = 640
+IMAGE_HEIGHT = 480
+
+LOWER_RED1 = np.array([0,120,70])
+UPPER_RED1 = np.array([10,255,255])
+
+LOWER_RED2 = np.array([170,120,70])
+UPPER_RED2 = np.array([180,255,255])
+
+LOWER_GREEN = np.array([40,40,40])
+UPPER_GREEN = np.array([80,255,255])
+
+LOWER_BLUE = np.array([100,150,0])
+UPPER_BLUE = np.array([140,255,255])
+
+MIN_CONTOUR_AREA = 500

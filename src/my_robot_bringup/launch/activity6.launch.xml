@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="my_py_pkg" exec="robot_new_station" name ="robot_new_station_giskard" /> 
+    <node pkg="my_py_pkg" exec="robot_new_station" name ="robot_new_station_bb8" />
+    <node pkg="my_py_pkg" exec="robot_new_station" name ="robot_new_station_daneel" />
+    <node pkg="my_py_pkg" exec="robot_new_station" name ="robot_new_station_jander" />
+    <node pkg="my_py_pkg" exec="robot_new_station" name ="robot_new_station_c3po" />
+    <node pkg="my_py_pkg" exec="smartphone" />
+</launch>
