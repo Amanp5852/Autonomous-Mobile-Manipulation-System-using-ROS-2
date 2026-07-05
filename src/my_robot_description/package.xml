@@ -6,7 +6,7 @@
   <description>"ROS 2 package containing the URDF/Xacro robot model, Gazebo world, "
     "simulation assets, and robot description files for the autonomous "
     "mobile manipulation system."</description>
-  <maintainer email="aman@todo.todo">aman</maintainer>
+  <maintainer email="">Aman Patel</maintainer>
   <license>Apache-2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
