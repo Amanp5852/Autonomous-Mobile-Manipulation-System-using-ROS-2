@@ -4,7 +4,7 @@ package_name = 'my_robot_controller'
 
 setup(
     name=package_name,
-    version='0.0.0',
+    version='1.0.0',
     packages=find_packages(exclude=['test']),
     data_files=[
         ('share/ament_index/resource_index/packages',
@@ -13,10 +13,11 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='aman',
+    maintainer='Aman Patel',
     maintainer_email='aman@todo.todo',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    description='ROS 2 Jazzy autonomous mobile manipulation robot with navigation, "
+    "perception, manipulation, and task management.',
+    license='Apache-2.0',
     extras_require={
         'test': [
             'pytest',
